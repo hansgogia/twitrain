@@ -4,11 +4,11 @@ import tweepy
 import os
 import bz2
 
-consumer_key = 'werVqzTQcXHlJtgwCwtqxA'
-consumer_secret = 'cDosDXtGMPcVZugpPcD3Z8jhIEOwiOHgqd9Hmd4QMk'
+consumer_key = 'ENTER YOUR CONSUMER KEY HERE'
+consumer_secret = 'ENTER YOU CONSUMER SECRET HERE '
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-filename = ".twitrain_oauth"
+filename = "ENTER THE FILE NAME HERE"
 
 if os.path.exists(filename) == True:
     oauth = open(filename , 'r')
